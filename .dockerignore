@@ -1,0 +1,17 @@
+node_modules
+dist
+.env
+.env.local
+coverage
+*.log
+.DS_Store
+.vscode
+.idea
+*.tmp
+.cache
+apps/*/node_modules
+apps/*/dist
+apps/*/build
+apps/*/.next
+apps/*/out
+
