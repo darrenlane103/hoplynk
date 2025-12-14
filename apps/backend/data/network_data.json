@@ -1,0 +1,267 @@
+{
+  "device": {
+    "id": "router-01",
+    "name": "Edge Router 01",
+    "location": "Test Lab"
+  },
+  "interfaces": [
+    {
+      "id": "router-01/eth0",
+      "device_id": "router-01",
+      "name": "eth0",
+      "link_type": "ethernet",
+      "provider": "Comcast",
+      "priority": 1
+    },
+    {
+      "id": "router-01/wlan0",
+      "device_id": "router-01",
+      "name": "wlan0",
+      "link_type": "wifi",
+      "provider": "Office WiFi",
+      "priority": 2
+    },
+    {
+      "id": "router-01/lte0",
+      "device_id": "router-01",
+      "name": "lte0",
+      "link_type": "cellular",
+      "provider": "Verizon",
+      "priority": 3
+    },
+    {
+      "id": "router-01/starlink0",
+      "device_id": "router-01",
+      "name": "starlink0",
+      "link_type": "satellite",
+      "provider": "Starlink",
+      "priority": 4
+    }
+  ],
+  "metrics": [
+    {
+      "timestamp": "2025-01-29T18:20:00Z",
+      "interface_id": "router-01/eth0",
+      "rtt_ms": 12,
+      "latency_ms": 12,
+      "jitter_ms": 1,
+      "packet_loss": 0.0,
+      "throughput_mbps": 410,
+      "score": 96,
+      "status": "healthy"
+    },
+    {
+      "timestamp": "2025-01-29T18:20:00Z",
+      "interface_id": "router-01/wlan0",
+      "rtt_ms": 28,
+      "latency_ms": 28,
+      "jitter_ms": 5,
+      "packet_loss": 0.01,
+      "throughput_mbps": 155,
+      "score": 83,
+      "status": "healthy"
+    },
+    {
+      "timestamp": "2025-01-29T18:20:00Z",
+      "interface_id": "router-01/lte0",
+      "rtt_ms": 65,
+      "latency_ms": 65,
+      "jitter_ms": 18,
+      "packet_loss": 0.03,
+      "throughput_mbps": 42,
+      "score": 66,
+      "status": "degraded"
+    },
+    {
+      "timestamp": "2025-01-29T18:20:00Z",
+      "interface_id": "router-01/starlink0",
+      "rtt_ms": 50,
+      "latency_ms": 50,
+      "jitter_ms": 9,
+      "packet_loss": 0.02,
+      "throughput_mbps": 115,
+      "score": 79,
+      "status": "healthy"
+    },
+
+    {
+      "timestamp": "2025-01-29T18:21:00Z",
+      "interface_id": "router-01/eth0",
+      "rtt_ms": 13,
+      "latency_ms": 13,
+      "jitter_ms": 2,
+      "packet_loss": 0.0,
+      "throughput_mbps": 405,
+      "score": 95,
+      "status": "healthy"
+    },
+    {
+      "timestamp": "2025-01-29T18:21:00Z",
+      "interface_id": "router-01/wlan0",
+      "rtt_ms": 30,
+      "latency_ms": 30,
+      "jitter_ms": 6,
+      "packet_loss": 0.01,
+      "throughput_mbps": 148,
+      "score": 81,
+      "status": "healthy"
+    },
+    {
+      "timestamp": "2025-01-29T18:21:00Z",
+      "interface_id": "router-01/lte0",
+      "rtt_ms": 70,
+      "latency_ms": 70,
+      "jitter_ms": 20,
+      "packet_loss": 0.04,
+      "throughput_mbps": 38,
+      "score": 63,
+      "status": "degraded"
+    },
+    {
+      "timestamp": "2025-01-29T18:21:00Z",
+      "interface_id": "router-01/starlink0",
+      "rtt_ms": 52,
+      "latency_ms": 52,
+      "jitter_ms": 10,
+      "packet_loss": 0.02,
+      "throughput_mbps": 112,
+      "score": 78,
+      "status": "healthy"
+    },
+
+    {
+      "timestamp": "2025-01-29T18:22:00Z",
+      "interface_id": "router-01/eth0",
+      "rtt_ms": 11,
+      "latency_ms": 11,
+      "jitter_ms": 1,
+      "packet_loss": 0.0,
+      "throughput_mbps": 420,
+      "score": 97,
+      "status": "healthy"
+    },
+    {
+      "timestamp": "2025-01-29T18:22:00Z",
+      "interface_id": "router-01/wlan0",
+      "rtt_ms": 26,
+      "latency_ms": 26,
+      "jitter_ms": 4,
+      "packet_loss": 0.0,
+      "throughput_mbps": 160,
+      "score": 85,
+      "status": "healthy"
+    },
+    {
+      "timestamp": "2025-01-29T18:22:00Z",
+      "interface_id": "router-01/lte0",
+      "rtt_ms": 62,
+      "latency_ms": 62,
+      "jitter_ms": 15,
+      "packet_loss": 0.02,
+      "throughput_mbps": 45,
+      "score": 69,
+      "status": "degraded"
+    },
+    {
+      "timestamp": "2025-01-29T18:22:00Z",
+      "interface_id": "router-01/starlink0",
+      "rtt_ms": 49,
+      "latency_ms": 49,
+      "jitter_ms": 8,
+      "packet_loss": 0.01,
+      "throughput_mbps": 120,
+      "score": 81,
+      "status": "healthy"
+    },
+
+    {
+      "timestamp": "2025-01-29T18:23:00Z",
+      "interface_id": "router-01/eth0",
+      "rtt_ms": 14,
+      "latency_ms": 14,
+      "jitter_ms": 3,
+      "packet_loss": 0.0,
+      "throughput_mbps": 398,
+      "score": 94,
+      "status": "healthy"
+    },
+    {
+      "timestamp": "2025-01-29T18:23:00Z",
+      "interface_id": "router-01/wlan0",
+      "rtt_ms": 35,
+      "latency_ms": 35,
+      "jitter_ms": 8,
+      "packet_loss": 0.02,
+      "throughput_mbps": 140,
+      "score": 78,
+      "status": "degraded"
+    },
+    {
+      "timestamp": "2025-01-29T18:23:00Z",
+      "interface_id": "router-01/lte0",
+      "rtt_ms": 85,
+      "latency_ms": 85,
+      "jitter_ms": 25,
+      "packet_loss": 0.05,
+      "throughput_mbps": 32,
+      "score": 58,
+      "status": "degraded"
+    },
+    {
+      "timestamp": "2025-01-29T18:23:00Z",
+      "interface_id": "router-01/starlink0",
+      "rtt_ms": 60,
+      "latency_ms": 60,
+      "jitter_ms": 15,
+      "packet_loss": 0.03,
+      "throughput_mbps": 95,
+      "score": 73,
+      "status": "healthy"
+    },
+
+    {
+      "timestamp": "2025-01-29T18:24:00Z",
+      "interface_id": "router-01/eth0",
+      "rtt_ms": 13,
+      "latency_ms": 13,
+      "jitter_ms": 2,
+      "packet_loss": 0.0,
+      "throughput_mbps": 415,
+      "score": 96,
+      "status": "healthy"
+    },
+    {
+      "timestamp": "2025-01-29T18:24:00Z",
+      "interface_id": "router-01/wlan0",
+      "rtt_ms": 29,
+      "latency_ms": 29,
+      "jitter_ms": 6,
+      "packet_loss": 0.01,
+      "throughput_mbps": 152,
+      "score": 82,
+      "status": "healthy"
+    },
+    {
+      "timestamp": "2025-01-29T18:24:00Z",
+      "interface_id": "router-01/lte0",
+      "rtt_ms": 68,
+      "latency_ms": 68,
+      "jitter_ms": 19,
+      "packet_loss": 0.03,
+      "throughput_mbps": 39,
+      "score": 64,
+      "status": "degraded"
+    },
+    {
+      "timestamp": "2025-01-29T18:24:00Z",
+      "interface_id": "router-01/starlink0",
+      "rtt_ms": 53,
+      "latency_ms": 53,
+      "jitter_ms": 11,
+      "packet_loss": 0.02,
+      "throughput_mbps": 110,
+      "score": 78,
+      "status": "healthy"
+    }
+  ]
+}

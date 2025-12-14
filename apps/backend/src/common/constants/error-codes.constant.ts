@@ -1,0 +1,15 @@
+export enum ErrorCode {
+  // Data Source Errors (5xx)
+  DATA_SOURCE_UNAVAILABLE = 'DATA_SOURCE_UNAVAILABLE',
+  DATA_SOURCE_ERROR = 'DATA_SOURCE_ERROR',
+
+  // Validation Errors (4xx)
+  VALIDATION_ERROR = 'VALIDATION_ERROR',
+  INVALID_INPUT = 'INVALID_INPUT',
+
+  // Not Found Errors (4xx)
+  RESOURCE_NOT_FOUND = 'RESOURCE_NOT_FOUND',
+
+  // Server Errors (5xx)
+  INTERNAL_SERVER_ERROR = 'INTERNAL_SERVER_ERROR',
+}
