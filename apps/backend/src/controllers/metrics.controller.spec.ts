@@ -11,7 +11,7 @@ describe('MetricsController', () => {
   let datasetService: DatasetService;
 
   beforeEach(async () => {
-    const testDataPath = path.resolve(process.cwd(), 'data/work_sample_data.json');
+    const testDataPath = path.resolve(process.cwd(), 'data/network_data.json');
 
     const module: TestingModule = await Test.createTestingModule({
       imports: [

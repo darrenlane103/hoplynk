@@ -49,7 +49,7 @@ npm install
 
 Create `apps/backend/.env`:
 ```bash
-DATA_FILE=data/work_sample_data.json
+DATA_FILE=data/network_data.json
 PORT=3001
 ALLOWED_ORIGINS=http://localhost:3000
 NODE_ENV=development

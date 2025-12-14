@@ -20,6 +20,10 @@ COPY --from=dependencies /app/node_modules ./node_modules
 COPY --from=build /app/apps/backend/dist ./dist
 COPY --from=build /app/apps/backend/package.json ./package.json
 COPY --from=build /app/apps/backend/data ./data
+RUN chmod -R 755 /app/data && \
+    chmod 644 /app/data/network_data.json && \
+    chown -R node:node /app/data
+USER node
 EXPOSE 3001
 CMD ["npm", "start"]
 

@@ -11,7 +11,7 @@ services:
     environment:
       - NODE_ENV=production
       - PORT=3001
-      - DATA_FILE=data/work_sample_data.json
+      - DATA_FILE=data/network_data.json
       - ALLOWED_ORIGINS=http://localhost:3000
     volumes:
       - ./apps/backend/data:/app/data:ro
